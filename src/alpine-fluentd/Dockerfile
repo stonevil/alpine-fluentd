@@ -1,4 +1,4 @@
-FROM stonevil/alpine-ruby
+FROM quay.io/stonevil/alpine-ruby
 MAINTAINER stonevil@gmail.com
 
 ENV FLUENTD_VERSION=${FLUENTD_VERSION:-0.14.0}
